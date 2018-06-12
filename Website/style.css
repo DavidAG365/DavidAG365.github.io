@@ -1,0 +1,180 @@
+{
+	outline:none;
+	line-height:150%;
+}
+body{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0px;
+
+
+}
+.bg-total{
+	width:100%;
+	height:100%;
+}
+.bg{
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: 100% 100%;
+    height:100%;
+    width:80%;
+    left:20%;
+    position: absolute;
+    
+
+}
+.img1{
+	background-image: url("sampl.jpg");
+	visibility: visible;
+}
+.img2{
+	background-image: url("sampl2.jpg");
+	visibility: hidden;
+}
+.img3{
+	background-image: url("sampl3.jpg");
+	visibility: hidden;
+}
+.img4{
+	background-image: url("sampl4.jpg");
+	visibility: hidden;
+}
+
+/*div.container{
+	top:5%;
+	left: 5%;
+	height: 90%;
+	width: 90%;
+	opacity: .9;
+	background-color: #ffffff;
+	border: 1px solid black;
+	
+}*/
+.navigation{
+	overflow:hidden;
+	position:relative;
+	top: 10%;
+}
+.nav-bar{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+	margin-left: auto;
+	margin-right: auto;
+	width:200px;
+	height:200px;
+	top:5%;
+	position: relative;
+
+}
+.logo img{
+	width:100%;
+	height: 100%;
+}
+li a {
+	clear:both;
+    display: block;
+    color: white;
+    float:left;
+    text-indent:10%;
+    /*text-align: center;*/
+    padding:8px 8px 20px 8px;
+    text-decoration: none;
+    font-size: 1.4em;
+    line-height:1;
+	text-transform:uppercase;
+	top: 55%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font:weight: bold;
+	width:100%;
+
+}
+li a:hover {
+    background-color: #ff9900;
+}
+
+
+.slogan{
+	top: 50%;
+	right:5%;
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+	font-size: 4em;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style: italic;
+	position: absolute;
+}
+.extra{
+	top:65%;
+	font-size: 2em;
+}
+.sidebar{
+	position: absolute;
+	width:20%;
+	height: 100%;
+	background-color: #DAA520;
+}
+div.extra-information{
+	width:100%;
+	float: bottom;
+	z-index: 1;
+	position: relative;
+	margin-top: 50%
+
+
+
+}
+.extra-information p{
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font:weight: bold;
+	color: white;
+	font-size:.5em;
+}
+.meat{
+	margin: 30px;
+	margin-bottom: 0;
+  	background-color: rgba(255, 255, 255, 0.6);
+  	opacity: 1;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1.2em;
+}
+.meat p{
+	margin: 5%;
+  	font-weight: bold;
+  	color: #000000;
+}
+.meat h1{
+	text-align: center;
+}
+.outer-list, .inner-list{
+	list-style-type: none;
+
+}
+.outer-list li{
+	padding-bottom: : 0;
+	padding-right: 8.2%;
+}
+
+.inner-list li{
+	float:left;
+}
+.inner-list img{
+	height:142px;
+	width: 213px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.inner-list h5{
+	margin-top: 0;
+	margin-bottom: .5%;
+}
+.products-header{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
